@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "Namn": "PC",
+      "Pris": 50000
+    },
+    {
+      "Namn": "TV",
+      "Pris": 40000
+    },
+    {
+      "Namn": "DS",
+      "Pris": 30000
+    },
+    {
+      "Namn": "Mobile",
+      "Pris": 20000
+    },
+    {
+      "Namn": "Gummi",
+      "Pris": 49
+    },
+    {
+      "Namn": "USB kabel",
+      "Pris": 38
+    }
+  ],
+  "studenter": [
+    {
+      "Namn": "Nemo",
+      "Betyg": 6
+    },
+    {
+      "Namn": "Ward",
+      "Betyg": 3
+    },
+    {
+      "Namn": "Dorsa",
+      "Betyg": 4
+    },
+    {
+      "Namn": "Gabbe2",
+      "Betyg": 5
+    },
+    {
+      "Namn": "Gabbe",
+      "Betyg": 5
+    },
+    {
+      "Namn": "Mohannad",
+      "Betyg": 6
+    }
+  ],
+  "anställda": [
+    {
+      "Namn": "Nemo",
+      "Lön": 15000
+    },
+    {
+      "Namn": "Nemo1",
+      "Lön": 13000
+    },
+    {
+      "Namn": "Nemo2",
+      "Lön": 14000
+    }
+  ]
+}

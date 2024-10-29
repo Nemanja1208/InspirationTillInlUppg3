@@ -48,6 +48,16 @@ namespace ConsoleApp1
             //Givet en lista med heltal, skriv en LINQ - fråga som beräknar summan, medelvärdet,
             //det maximala och det minimala värdet.
 
+            List<int> allaTal = minLillaDB.allaTalFrånDB;
+
+            int summanAvAllTal = allaTal.Sum();
+
+            double medelvärdetAvAllTal = allaTal.Average();
+
+            int maxVärdeAvAllaTal = allaTal.Max();
+
+            int minVärdeAvAllaTal = allaTal.Min();
+
 
             // UPDATERA DB - JSON fil som sista steg
             string updateradeLillaDB = JsonSerializer.Serialize(minLillaDB, new JsonSerializerOptions { WriteIndented = true });

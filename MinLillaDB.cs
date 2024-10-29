@@ -12,5 +12,8 @@ namespace ConsoleApp1
 
         [JsonPropertyName("anställda")]
         public List<Anställd> AllaAnställdaFrånDB { get; set; }
+
+        [JsonPropertyName("allaTal")]
+        public List<int> allaTalFrånDB { get; set; }
     }
 }
